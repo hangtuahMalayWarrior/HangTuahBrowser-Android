@@ -311,10 +311,6 @@ android {
         compose = true
     }
 
-    compileOptions {
-        coreLibraryDesugaringEnabled = true
-    }
-
     namespace = 'org.mozilla.fenix'
 }
 
@@ -548,7 +544,6 @@ tasks.register("updateAMOExtensionVersion", Copy) { task ->
 }
 
 dependencies {
-    coreLibraryDesugaring libs.desugar.jdk.libs
     implementation libs.kotlin.json
 
     implementation project(':browser-engine-gecko')

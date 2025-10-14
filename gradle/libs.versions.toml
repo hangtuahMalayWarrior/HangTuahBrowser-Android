@@ -49,7 +49,6 @@ work = "2.10.1"
 
 # Google versions
 accompanist = "0.37.3"
-desugar-jdk-libs = "2.1.5"
 firebase-messaging = "24.1.1"
 installreferrer = "2.2"
 material = "1.12.0"
@@ -231,7 +230,6 @@ thirdparty-zxing = { group = "com.google.zxing", name = "core", version.ref = "z
 thirdparty-disklrucache = { group = "com.jakewharton", name = "disklrucache", version.ref = "disklrucache" }
 thirdparty-androidsvg = { group = "com.caverock", name = "androidsvg-aar", version.ref = "androidsvg" }
 
-desugar-jdk-libs = { group = "com.android.tools", name = "desugar_jdk_libs", version.ref = "desugar-jdk-libs" }
 firebase-messaging = { group = "com.google.firebase", name = "firebase-messaging", version.ref = "firebase-messaging" }
 installreferrer = { group = "com.android.installreferrer", name = "installreferrer", version.ref = "installreferrer" }
 osslicenses-plugin = { group = "com.google.android.gms", name = "oss-licenses-plugin", version.ref = "osslicenses-plugin" }
